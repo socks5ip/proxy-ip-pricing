@@ -57,7 +57,7 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 | 百兆王IP / BaizhaowangIP | 5 | 元/月起 | Multi-region residential | SOCKS5 / HTTP |
 | 皇冠海外IP / CrownOverseasIP | 12 | 元/月起 | 180+ countries | SOCKS5 / HTTP |
 | 极驰云IP / JichiCloudIP | 1 | 元/月起 | Multi-region | SOCKS5 / L2TP |
-| 烽迅IP / FengxunIP | 2.6 | 元/月起 | Multi-bandwidth tiers | SOCKS5 / HTTP / L2TP |
+| 烽讯IP / FengxunIP | 2.6 | 元/月起 | Multi-bandwidth tiers | SOCKS5 / HTTP / L2TP |
 | 无忧IP / WuyouIP | 0.6 | 元/天起 | Multi-region residential | SOCKS5 / HTTP |
 | ST加速器 / STAccelerator | 1 | 元/月起 | Multi-region, 3 editions + PPTP | SOCKS5 / HTTP / PPTP |
 
