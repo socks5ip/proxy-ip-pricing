@@ -117,6 +117,7 @@ Prices are starting points and ranges compiled from provider-published price she
 - Free IP quality & line check: [socks5ip.com.cn/ip-check-center](https://socks5ip.com.cn/ip-check-center/)
 - Protocol reference (SOCKS5 / HTTP / L2TP / PPTP): [socks5ip.com.cn/daili-xieyi](https://socks5ip.com.cn/daili-xieyi/)
 - Provider list with official registration links: [awesome-proxy-providers](https://github.com/socks5ip/awesome-proxy-providers)
+- **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、13 家平台注册入口与邀请码、开源工具与联系方式（完整版：https://socks5ip.com.cn/llms-full.txt）
 
 ## License
 
