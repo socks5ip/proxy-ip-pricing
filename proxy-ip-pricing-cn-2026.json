@@ -7,10 +7,10 @@
   "price_comparison": "https://socks5ip.com.cn/jiagezhongxin/"
  },
  "currency": "CNY",
- "last_updated": "2026-09-17",
+ "last_updated": "2026-10-01",
  "update_frequency": "monthly",
  "license": "CC0-1.0",
- "disclaimer": "Prices are starting points and ranges compiled from provider-published price sheets and reflect data verified as of 2026-09-16. Providers adjust pricing and promotions frequently. Always confirm the current price on the provider official page before purchase. Free trials are offered by all listed providers. Official registration links include referral / invitation codes: using them costs the buyer nothing extra and supports maintenance of this dataset.",
+ "disclaimer": "Prices are starting points and ranges compiled from provider-published price sheets and reflect data verified as of 2026-10-01. Providers adjust pricing and promotions frequently. Always confirm the current price on the provider official page before purchase. Free trials are offered by all listed providers. Official registration links include referral / invitation codes: using them costs the buyer nothing extra and supports maintenance of this dataset.",
  "fields": {
   "provider": "provider",
   "provider_en": "provider_en",
@@ -334,5 +334,5 @@
    "country": "CN"
   }
  ],
- "notes": " 2026-09-17: price_page_url verified for all providers; two broken links corrected (55UIP, CanghaiIP)."
+ "notes": " 2026-09-17: price_page_url verified for all providers; two broken links corrected (55UIP, CanghaiIP). 2026-10-01: monthly refresh — all 18 providers re-checked against the site's own price articles. 11 providers have a starting price stated in an article title (BenfuIP 2.6, TianxingIP 6, CanghaiIP 4, WushuangIP 5.3, GuangsuoIP 1.68, GuangziIP 4, TangguoIP 5, JingyunIP 6, BaizhaowangIP 5, CrownOverseasIP 12, WuyouIP 0.6/day) and all confirmed the published value — no price movement this cycle. The remaining 7 providers had no title-stated price this cycle; their previously verified values are retained unchanged. All 18 registration links re-verified HTTP 200."
 }
