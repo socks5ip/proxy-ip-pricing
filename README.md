@@ -1,6 +1,6 @@
 # Proxy IP Pricing (China Market) 2026
 
-[![Updated](https://img.shields.io/badge/updated-2026--09--16-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]()
+[![Updated](https://img.shields.io/badge/updated-2026--10--01-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]()
 
 An open dataset of **proxy IP pricing, protocol support, coverage and official registration links** for 18 providers serving the Chinese market. Compiled monthly from provider-published price sheets.
 
@@ -43,9 +43,9 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 | Provider | From | Unit | Coverage | Protocols |
 |---|---|---|---|---|
 | 奔富IP / BenfuIP | **2.6** | 元/月起 | 200+ cities, dedicated residential | SOCKS5 / HTTP / L2TP |
-| 天行IP / TianxingIP | 1 | 元/月起 | 350+ cities, static + home residential | SOCKS5 / HTTP / L2TP |
+| 天行IP / TianxingIP | 6 | 元/月起 | 350+ cities, static + home residential | SOCKS5 / HTTP / L2TP |
 | 沧海IP / CanghaiIP | 4 | 元/月起 | Static residential, fine-grained zones | SOCKS5 / HTTP / L2TP |
-| 无双IP / WushuangIP | 5 | 元/月起 | Static residential, multi-region | SOCKS5 / HTTP / L2TP |
+| 无双IP / WushuangIP | 5.3 | 元/月起 | Static residential, multi-region | SOCKS5 / HTTP / L2TP |
 | 全球代理IP / GlobalProxyIP | 5 | 元/月起 | Overseas static residential | SOCKS5 / HTTP / L2TP |
 | 55游IP / 55UIP | 0.6 | 元/天起 | Residential for gaming | SOCKS5 / L2TP |
 | 光梭IP / GuangsuoIP | 1.68 | 元/月起 | 700+ regions | SOCKS5 / HTTP / L2TP |
@@ -104,12 +104,12 @@ If you use this dataset, please cite:
 ```
 Proxy IP Pricing (China Market) 2026 — 全网低价IP / socks5ip
 https://github.com/socks5ip/proxy-ip-pricing
-Retrieved: <date>. Data verified as of 2026-09-16.
+Retrieved: <date>. Data verified as of 2026-10-01.
 ```
 
 ## Disclaimer
 
-Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-09-16**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers.
+Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-01**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers.
 
 ## Related
 
