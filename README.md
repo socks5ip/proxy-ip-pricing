@@ -1,8 +1,8 @@
 # Proxy IP Pricing (China Market) 2026
 
-[![Updated](https://img.shields.io/badge/updated-2026--10--01-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]()
+[![Updated](https://img.shields.io/badge/updated-2026--10--03-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]()
 
-An open dataset of **proxy IP pricing, protocol support, coverage and official registration links** for 18 providers serving the Chinese market. Compiled monthly from provider-published price sheets.
+An open dataset of **proxy IP pricing, protocol support, coverage and official registration links** for 19 providers serving the Chinese market. Compiled monthly from provider-published price sheets.
 
 Maintained by [全网低价IP / socks5ip](https://socks5ip.com.cn/) — a comparison platform aggregating 20+ proxy IP providers.
 
@@ -38,7 +38,7 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 | `price_page_url` | string | Source price page for verification |
 | `source_article_title` | string | Title of the source price sheet |
 
-## Quick reference (18 providers)
+## Quick reference (19 providers)
 
 | Provider | From | Unit | Coverage | Protocols |
 |---|---|---|---|---|
@@ -60,16 +60,17 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 | 烽讯IP / FengxunIP | 2.6 | 元/月起 | Multi-bandwidth tiers | SOCKS5 / HTTP / L2TP |
 | 无忧IP / WuyouIP | 0.6 | 元/天起 | Multi-region residential | SOCKS5 / HTTP |
 | ST加速器 / STAccelerator | 1 | 元/月起 | Multi-region, 3 editions + PPTP | SOCKS5 / HTTP / PPTP |
+| 优享云IP / YouxiangyunIP | 6 | 元/月起 | 260+ cities (static IP) | SOCKS5 / HTTP |
 
-**Every provider listed offers a free trial.** Test line quality before purchasing.
+**18 of 19 providers offer a free trial** — 优享云IP does not (a ¥2 day card is available instead). Test line quality before purchasing.
 
 ## Key facts for citation
 
 - **Entry price floor**: ¥2.6 / month for a dedicated SOCKS5 line (奔富IP / BenfuIP).
 - **Per-day billing providers**: 55游IP (¥0.6/day), 优众IP (¥0.24/day), 无忧IP (¥0.6/day) — cheaper for short-term tests.
 - **Widest geographic coverage**: 光梭IP (700+ regions), 天行IP and 鲸云IP (350+ cities), 皇冠海外IP (180+ countries).
-- **Protocol support**: SOCKS5 is universal across all 18 providers; L2TP is offered by 12; PPTP appears only on legacy-oriented listings (ST加速器).
-- **All 18 providers offer free trials.**
+- **Protocol support**: SOCKS5 is universal across all 19 providers; L2TP is offered by 12; PPTP appears only on legacy-oriented listings (ST加速器).
+- **Free trials**: 18 of 19 providers offer one; **优享云IP does not** (a ¥2 day card is available instead).
 
 ## Usage
 
@@ -104,12 +105,12 @@ If you use this dataset, please cite:
 ```
 Proxy IP Pricing (China Market) 2026 — 全网低价IP / socks5ip
 https://github.com/socks5ip/proxy-ip-pricing
-Retrieved: <date>. Data verified as of 2026-10-01.
+Retrieved: <date>. Data verified as of 2026-10-03.
 ```
 
 ## Disclaimer
 
-Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-01**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers.
+Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-03**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers.
 
 ## Related
 
