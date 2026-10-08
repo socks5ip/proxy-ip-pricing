@@ -83,6 +83,17 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 - **Protocol support**: SOCKS5 is universal across all 23 providers; L2TP is offered by 15; PPTP by 5 (ST加速器, 蛟龙IP, 天机IP, 长城IP, 酷熊IP).
 - **Free trials**: 22 of 23 providers offer one; **优享云IP does not** (a ¥2 day card is available instead).
 
+## How these prices are obtained (discounted pricing)
+
+The prices listed here are the **discounted rates we have arranged with each provider** — they are generally **lower than the headline prices shown on the providers' own sites**.
+
+- These discounted rates **only apply if you register through our referral link**, which carries a per-provider invitation code (see the `invite_code` field, embedded in each `register_url`). This is the standard mechanism on these platforms: the price sheet contains both a list price and a discounted price, and the invitation code determines the account association and the discount.
+- **If you registered through our link and the amount you actually paid does not match what is listed here**, contact our support and we will help get the price corrected — **free of charge**.
+- **If you already registered elsewhere**, ask our support whether that provider supports re-pricing an existing account; if it does not, register a new account through our link.
+- We do not set or guarantee any price — pricing is decided by each provider. Always confirm the final amount in the provider's own dashboard.
+
+Methodology, update cadence and the price-correction channel: <https://socks5ip.com.cn/jiage-heshifangfa/>
+
 ## Usage
 
 ### Python
@@ -121,7 +132,7 @@ Retrieved: <date>. Data verified as of 2026-10-08.
 
 ## Disclaimer
 
-Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-08**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers.
+Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-08**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers. The listed prices are arranger-discounted rates obtained through our referral links (see "How these prices are obtained"); the amount charged is decided by each provider and shown in its own dashboard.
 
 ## Related
 
@@ -129,6 +140,7 @@ Prices are starting points and ranges compiled from provider-published price she
 - Free IP quality & line check: [socks5ip.com.cn/ip-check-center](https://socks5ip.com.cn/ip-check-center/)
 - Protocol reference (SOCKS5 / HTTP / L2TP / PPTP): [socks5ip.com.cn/daili-xieyi](https://socks5ip.com.cn/daili-xieyi/)
 - Provider list with official registration links: [awesome-proxy-providers](https://github.com/socks5ip/awesome-proxy-providers)
+- How we verify prices, why ours are discounted, and how to request a price correction: <https://socks5ip.com.cn/jiage-heshifangfa/>
 - **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、20+ 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
 
 ## License
