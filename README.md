@@ -1,8 +1,8 @@
 # Proxy IP Pricing (China Market) 2026
 
-[![Updated](https://img.shields.io/badge/updated-2026--10--08-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]()
+[![Updated](https://img.shields.io/badge/updated-2026--10--13-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]()
 
-An open dataset of **proxy IP pricing, protocol support, coverage and official registration links** for 23 providers serving the Chinese market. Compiled monthly from provider-published price sheets.
+An open dataset of **proxy IP pricing, protocol support, coverage and official registration links** for 24 providers serving the Chinese market. Compiled monthly from provider-published price sheets.
 
 Maintained by [全网低价IP / socks5ip](https://socks5ip.com.cn/) — a comparison platform aggregating 20+ proxy IP providers.
 
@@ -43,7 +43,7 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 | `price_band` | string | Price band by month-card price: `A · ≤3` / `B · 3–5` / `C · 5–8` / `D · >8` CNY/month. |
 | `rank_month` | integer | Rank by `price_month_cny` ascending (ties broken by provider name). |
 
-## Quick reference (23 providers)
+## Quick reference (24 providers)
 
 | Provider | Month card (from) | Band | Coverage | Protocols |
 |---|---|---|---|---|
@@ -73,15 +73,15 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 
 `Month card (from)` is the normalized comparison basis: the cheapest **monthly** tier of each provider. Where a provider also sells day cards (55游IP ¥0.6/day, 优众IP ¥0.24/day, 无忧IP ¥0.6/day), the day rate is cheaper for very short tests but the month card is what makes providers comparable. See `price_from_cny` / `price_unit` for the raw advertised entry price and its original unit.
 
-**22 of 23 providers offer a free trial** — 优享云IP does not (a ¥2 day card is available instead). Test line quality before purchasing.
+**23 of 24 providers offer a free trial** — 优享云IP does not (a ¥2 day card is available instead). Test line quality before purchasing.
 
 ## Key facts for citation
 
 - **Entry price floor (month card)**: **¥2.24 / month** (光梭IP / GuangsuoIP). Runners-up: 奔富IP and 烽讯IP at ¥2.6, 蛟龙IP at ¥2.8. Cheapest tier under ¥3/month is band **A** (4 providers).
 - **Per-day billing providers**: 55游IP (¥0.6/day), 优众IP (¥0.24/day), 无忧IP (¥0.6/day) — cheaper for short-term tests.
 - **Widest geographic coverage**: 光梭IP (700+ regions), 天行IP and 鲸云IP (350+ cities), 皇冠海外IP (180+ countries).
-- **Protocol support**: SOCKS5 is universal across all 23 providers; L2TP is offered by 15; PPTP by 5 (ST加速器, 蛟龙IP, 天机IP, 长城IP, 酷熊IP).
-- **Free trials**: 22 of 23 providers offer one; **优享云IP does not** (a ¥2 day card is available instead).
+- **Protocol support**: SOCKS5 is universal across all 24 providers; L2TP is offered by 15; PPTP by 5 (ST加速器, 蛟龙IP, 天机IP, 长城IP, 酷熊IP).
+- **Free trials**: 23 of 24 providers offer one; **优享云IP does not** (a ¥2 day card is available instead).
 
 ## How these prices are obtained (discounted pricing)
 
@@ -142,6 +142,22 @@ Prices are starting points and ranges compiled from provider-published price she
 - Provider list with official registration links: [awesome-proxy-providers](https://github.com/socks5ip/awesome-proxy-providers)
 - How we verify prices, why ours are discounted, and how to request a price correction: <https://socks5ip.com.cn/jiage-heshifangfa/>
 - **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、20+ 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
+
+## 官方渠道 · Official Channels
+
+| 渠道 / Channel | 地址 / Address |
+|---|---|
+| 官网 / Website | <https://socks5ip.com.cn/> —— 24 家代理IP平台横向比价 · 免费 IP 质量检测 · 全平台客户端配置教程 |
+| 价格中心 / Pricing center | <https://socks5ip.com.cn/jiagezhongxin/> |
+| 免费 IP 检测 / Free IP check | <https://socks5ip.com.cn/ip-check/> |
+| 客服微信 / WeChat | **17720135827**（同 QQ 878989347） |
+| 用户 QQ 群 / QQ group | **1045307809** |
+| 邮箱 / Email | **878989347@qq.com** |
+| 企业微信 / WeCom | <https://work.weixin.qq.com/ca/cawcde5c459cfc1310> |
+| AI 索引 / llms | <https://socks5ip.com.cn/llms.txt> ｜ <https://socks5ip.com.cn/llms-full.txt> |
+
+> 站内价格均为**经本站专属邀请码注册后生效的优惠价**；如实付价与页面标注不符，联系客服**免费改价**。
+> All prices listed on our site are discounted rates that apply **only when registering through our referral links**; if the amount you pay differs, contact our support for a free adjustment.
 
 ## License
 
