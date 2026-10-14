@@ -1,13 +1,13 @@
 {
   "dataset": "Proxy IP Pricing (China Market) 2026",
-  "description": "Monthly price ranges, protocol support, coverage and official registration links for 23 proxy IP providers serving the Chinese market.",
+  "description": "Monthly price ranges, protocol support, coverage and official registration links for 24 proxy IP providers serving the Chinese market.",
   "maintainer": {
     "name": "全网低价IP / socks5ip",
     "url": "https://socks5ip.com.cn/",
     "price_comparison": "https://socks5ip.com.cn/jiagezhongxin/"
   },
   "currency": "CNY",
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-13",
   "update_frequency": "monthly",
   "license": "CC0-1.0",
   "disclaimer": "Prices are starting points and ranges compiled from provider-published price sheets and reflect data verified as of 2026-10-03. Providers adjust pricing and promotions frequently. Always confirm the current price on the provider official page before purchase. Free trials are offered by most listed providers (优享云IP is the exception — a low-cost day card is available instead). Official registration links include referral / invitation codes: using them costs the buyer nothing extra and supports maintenance of this dataset.",
@@ -30,7 +30,7 @@
     "price_band": "价格带：A · 3 元以下 / B · 3–5 元 / C · 5–8 元 / D · 8 元以上",
     "rank_month": "按 price_month_cny 升序排名（同价按 provider 拼音序）"
   },
-  "count": 23,
+  "count": 24,
   "records": [
     {
       "provider": "奔富IP",
@@ -537,9 +537,31 @@
       "price_month_source": "站内比价页 Offer + A524 三源交叉验证",
       "price_band": "D · 8 元以上",
       "rank_month": 23
+    },
+    {
+      "provider": "纵游IP",
+      "provider_en": "ZunoIP",
+      "price_from_cny": "2",
+      "price_unit": "元/天起",
+      "price_range_note": "2 元/天起（天卡 1 天 / 3.5GB / 2 次换 IP）｜周卡 8.48 元｜月卡 24 元（30 天 / 100GB / 12 次）｜季卡 64.87 元｜半年卡 118.44 元｜年卡 219.93 元；本站入口为专属优惠价，低于平台官网挂牌价",
+      "coverage": "静态长效住宅（160+ 国家 / 2000+ 在线节点）",
+      "protocols": "SOCKS5 / HTTP",
+      "free_trial": "支持",
+      "register_url": "https://zunoip.com/login/register?p=adminA1",
+      "invite_code": "adminA1",
+      "price_page_path": "/guowaiip/zongyouip/zongyouip-jiage/jiage-2026/",
+      "source_article_title": "纵游IP价格表2026：静态长效住宅六档优惠价",
+      "price_page_url": "https://socks5ip.com.cn/guowaiip/zongyouip/zongyouip-jiage/jiage-2026/",
+      "currency": "CNY",
+      "country": "CN",
+      "price_month_cny": "24",
+      "price_month_note": "月卡最低档（元/月）；按天/按周计费的平台此处为月卡最低档，短期测试另有天卡更省",
+      "price_month_source": "站内价格表页（A724 纵游IP 接入）",
+      "price_band": "D · 8 元以上",
+      "rank_month": 24
     }
   ],
-  "notes": " 2026-09-17: price_page_url verified for all providers; two broken links corrected (55UIP, CanghaiIP). 2026-10-01: monthly refresh — all 18 providers re-checked against the site's own price articles. 11 providers have a starting price stated in an article title (BenfuIP 2.6, TianxingIP 6, CanghaiIP 4, WushuangIP 5.3, GuangsuoIP 1.68, GuangziIP 4, TangguoIP 5, JingyunIP 6, BaizhaowangIP 5, CrownOverseasIP 12, WuyouIP 0.6/day) and all confirmed the published value — no price movement this cycle. The remaining 7 providers had no title-stated price this cycle; their previously verified values are retained unchanged. All 18 registration links re-verified HTTP 200. 2026-10-03: added a 19th provider — 优享云IP (YouxiangyunIP, ¥6/month, SOCKS5/HTTP, 国内 260+ 城市). Price page article #1585 re-checked; registration link re-verified HTTP 200. Note: this provider does NOT offer a free trial (a ¥2 day card is available instead) — the \"all providers offer a free trial\" statement has been corrected. 2026-10-03 (B): dataset extended 19 → 23 providers — added 蛟龙IP (JiaolongIP), 天机IP (TianjiIP), 长城IP (ChangchengIP) and 酷熊IP (KuxiongIP), all four tracked on the site's own cross-provider comparison page. All four offer a free trial and support PPTP, so the PPTP note in README was updated. 2026-10-04: price_page_url for 皇冠海外IP (CrownOverseasIP) corrected — it pointed to /guowaiip/ (the 海外IP aggregate category page, not a per-provider price page), the only such mis-pointing among the 23 records. Now points to /guowaiip/crown/crownhuangguanip-jiagebiao-2026/, whose H1 matches source_article_title verbatim (皇冠海外IP价格表2026：180+国家共享独享全档价). The same value was corrected in three independent sources: this dataset, the npm package copy, and _platform_pages.json (the real source of /llms.txt). No price, coverage, protocol or registration data was changed. 2026-10-07 (A544): 新增归一化字段 price_month_cny/price_band/rank_month —— 原 price_from_cny 保留「最低广告价（含按天计费）」口径，price_month_cny 统一为「月卡最低档·元/月」，经站内比价页 Offer 与 A524 权威表三源交叉验证，23/23 一致。 2026-10-08 (A546): monthly re-verification. All 23 price_page_url and all 23 registration links re-checked (23/23 HTTP 200 on both, 0 broken). Referral/invitation code present on all 23 registration links (parameter names vary: ?p= / ?i= / ?c= / #/r?p= / short path IDs). price_page_url for 皇冠海外IP re-confirmed pointing to /guowaiip/crown/crownhuangguanip-jiagebiao-2026/. On the site itself the cross-provider comparison page now states 皇冠海外IP as \"共享 12 元/月起 · 独享 18 元/月起\" and the price center card was aligned to ¥12/month (was ¥18) so that all comparison surfaces use the same lowest-tier basis. No price, coverage, protocol or registration data was changed in this dataset.",
+  "notes": " 2026-09-17: price_page_url verified for all providers; two broken links corrected (55UIP, CanghaiIP). 2026-10-01: monthly refresh — all 18 providers re-checked against the site's own price articles. 11 providers have a starting price stated in an article title (BenfuIP 2.6, TianxingIP 6, CanghaiIP 4, WushuangIP 5.3, GuangsuoIP 1.68, GuangziIP 4, TangguoIP 5, JingyunIP 6, BaizhaowangIP 5, CrownOverseasIP 12, WuyouIP 0.6/day) and all confirmed the published value — no price movement this cycle. The remaining 7 providers had no title-stated price this cycle; their previously verified values are retained unchanged. All 18 registration links re-verified HTTP 200. 2026-10-03: added a 19th provider — 优享云IP (YouxiangyunIP, ¥6/month, SOCKS5/HTTP, 国内 260+ 城市). Price page article #1585 re-checked; registration link re-verified HTTP 200. Note: this provider does NOT offer a free trial (a ¥2 day card is available instead) — the \"all providers offer a free trial\" statement has been corrected. 2026-10-03 (B): dataset extended 19 → 23 providers — added 蛟龙IP (JiaolongIP), 天机IP (TianjiIP), 长城IP (ChangchengIP) and 酷熊IP (KuxiongIP), all four tracked on the site's own cross-provider comparison page. All four offer a free trial and support PPTP, so the PPTP note in README was updated. 2026-10-04: price_page_url for 皇冠海外IP (CrownOverseasIP) corrected — it pointed to /guowaiip/ (the 海外IP aggregate category page, not a per-provider price page), the only such mis-pointing among the 23 records. Now points to /guowaiip/crown/crownhuangguanip-jiagebiao-2026/, whose H1 matches source_article_title verbatim (皇冠海外IP价格表2026：180+国家共享独享全档价). The same value was corrected in three independent sources: this dataset, the npm package copy, and _platform_pages.json (the real source of /llms.txt). No price, coverage, protocol or registration data was changed. 2026-10-07 (A544): 新增归一化字段 price_month_cny/price_band/rank_month —— 原 price_from_cny 保留「最低广告价（含按天计费）」口径，price_month_cny 统一为「月卡最低档·元/月」，经站内比价页 Offer 与 A524 权威表三源交叉验证，23/23 一致。 2026-10-08 (A546): monthly re-verification. All 23 price_page_url and all 23 registration links re-checked (23/23 HTTP 200 on both, 0 broken). Referral/invitation code present on all 23 registration links (parameter names vary: ?p= / ?i= / ?c= / #/r?p= / short path IDs). price_page_url for 皇冠海外IP re-confirmed pointing to /guowaiip/crown/crownhuangguanip-jiagebiao-2026/. On the site itself the cross-provider comparison page now states 皇冠海外IP as \"共享 12 元/月起 · 独享 18 元/月起\" and the price center card was aligned to ¥12/month (was ¥18) so that all comparison surfaces use the same lowest-tier basis. No price, coverage, protocol or registration data was changed in this dataset. 2026-10-13: 新增纵游IP（ZunoIP，海外静态长效住宅，本站专属优惠价月卡 24 元），家数 23 → 24。",
   "rank_method": "rank_month 按 price_month_cny 升序；同价并列按 provider 拼音序",
   "discount_policy": {
     "price_shown_is": "discounted",
@@ -550,5 +572,5 @@
     "verification_and_errata": "https://socks5ip.com.cn/jiage-heshifangfa/",
     "no_price_promise": "定价权在各平台。本站只做整理与对照，不设定也不承诺任何价格；实付以平台后台为准。"
   },
-  "monthly_verified": "2026-10-08"
+  "monthly_verified": "2026-10-13"
 }
