@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Proxy IP Pricing in China (2026): 24 Providers — Prices, Protocols, Coverage and Official Registration Links"
+abstract: >-
+  An open dataset of proxy IP pricing in the Chinese market (2026), covering 24 providers:
+  entry price and normalised lowest month-card price, geographic coverage, supported protocols
+  (SOCKS5 / HTTP / L2TP / PPTP), free-trial availability, and official registration links.
+  Released under CC0-1.0 and refreshed monthly.
+type: dataset
+authors:
+  - name: "全网低价IP (socks5ip)"
+    website: "https://socks5ip.com.cn/"
+license: CC0-1.0
+doi: 10.5281/zenodo.22801591
+version: "2.0"
+date-released: "2026-10-15"
+url: "https://github.com/socks5ip/proxy-ip-pricing"
+repository-code: "https://github.com/socks5ip/proxy-ip-pricing"
+keywords:
+  - proxy
+  - socks5
+  - residential proxy
+  - pricing
+  - china
+  - dataset
+  - open data
