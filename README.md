@@ -1,10 +1,12 @@
 # Proxy IP Pricing (China Market) 2026
 
-[![Updated](https://img.shields.io/badge/updated-2026--10--13-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]()
+[![Updated](https://img.shields.io/badge/updated-2026--10--13-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]() [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22801591.svg)](https://doi.org/10.5281/zenodo.22801591)
 
 An open dataset of **proxy IP pricing, protocol support, coverage and official registration links** for 24 providers serving the Chinese market. Compiled monthly from provider-published price sheets.
 
-Maintained by [全网低价IP / socks5ip](https://socks5ip.com.cn/) — a comparison platform aggregating 20+ proxy IP providers.
+Maintained by [全网低价IP / socks5ip](https://socks5ip.com.cn/) — a comparison platform aggregating 24 proxy IP providers.
+
+**Cite this dataset**: DOI [10.5281/zenodo.22801591](https://doi.org/10.5281/zenodo.22801591) (Zenodo, CC0-1.0) — always resolves to the latest version.
 
 ---
 
@@ -70,6 +72,7 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 | ST加速器 / STAccelerator | **12** | D 8 元以上 | 多地区 | SOCKS5 / HTTP / PPTP |
 | 55游IP / 55UIP | **15** | D 8 元以上 | 游戏场景住宅线路 | SOCKS5 / L2TP |
 | 酷熊IP / KuxiongIP | **20** | D 8 元以上 | 静态住宅（不限流量） | SOCKS5 / HTTP / L2TP / PPTP |
+| 纵游IP / ZunoIP | **24** | D 8 元以上 | 静态长效住宅（160+ 国家 / 2000+ 在线节点） | SOCKS5 / HTTP |
 
 `Month card (from)` is the normalized comparison basis: the cheapest **monthly** tier of each provider. Where a provider also sells day cards (55游IP ¥0.6/day, 优众IP ¥0.24/day, 无忧IP ¥0.6/day), the day rate is cheaper for very short tests but the month card is what makes providers comparable. See `price_from_cny` / `price_unit` for the raw advertised entry price and its original unit.
 
@@ -127,16 +130,17 @@ If you use this dataset, please cite:
 ```
 Proxy IP Pricing (China Market) 2026 — 全网低价IP / socks5ip
 https://github.com/socks5ip/proxy-ip-pricing
-Retrieved: <date>. Data verified as of 2026-10-08.
+DOI: 10.5281/zenodo.22801591  (concept DOI — always resolves to the latest version)
+Retrieved: <date>. Data verified as of 2026-10-13.
 ```
 
 ## Disclaimer
 
-Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-08**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers. The listed prices are arranger-discounted rates obtained through our referral links (see "How these prices are obtained"); the amount charged is decided by each provider and shown in its own dashboard.
+Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-13**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers. The listed prices are arranger-discounted rates obtained through our referral links (see "How these prices are obtained"); the amount charged is decided by each provider and shown in its own dashboard.
 
 ## Related
 
-- Live price comparison across 20+ providers: [socks5ip.com.cn/jiagezhongxin](https://socks5ip.com.cn/jiagezhongxin/)
+- Live price comparison across 24 providers: [socks5ip.com.cn/jiagezhongxin](https://socks5ip.com.cn/jiagezhongxin/)
 - Free IP quality & line check: [socks5ip.com.cn/ip-check-center](https://socks5ip.com.cn/ip-check-center/)
 - Protocol reference (SOCKS5 / HTTP / L2TP / PPTP): [socks5ip.com.cn/daili-xieyi](https://socks5ip.com.cn/daili-xieyi/)
 - Provider list with official registration links: [awesome-proxy-providers](https://github.com/socks5ip/awesome-proxy-providers)
