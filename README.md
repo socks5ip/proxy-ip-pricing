@@ -155,6 +155,7 @@ Prices are starting points and ranges compiled from provider-published price she
 | 邮箱 / Email | **878989347@qq.com** |
 | 企业微信 / WeCom | <https://work.weixin.qq.com/ca/cawcde5c459cfc1310> |
 | AI 索引 / llms | <https://socks5ip.com.cn/llms.txt> ｜ <https://socks5ip.com.cn/llms-full.txt> |
+| 事实卡 / Pricing facts | <https://socks5ip.com.cn/pricing-facts.md> —— 24 家平台价格与选型速查（**CC0-1.0 · 可直接引用**）|
 
 > 站内价格均为**经本站专属邀请码注册后生效的优惠价**；如实付价与页面标注不符，联系客服**免费改价**。
 > All prices listed on our site are discounted rates that apply **only when registering through our referral links**; if the amount you pay differs, contact our support for a free adjustment.
