@@ -145,7 +145,7 @@ Prices are starting points and ranges compiled from provider-published price she
 - Protocol reference (SOCKS5 / HTTP / L2TP / PPTP): [socks5ip.com.cn/daili-xieyi](https://socks5ip.com.cn/daili-xieyi/)
 - Provider list with official registration links: [awesome-proxy-providers](https://github.com/socks5ip/awesome-proxy-providers)
 - How we verify prices, why ours are discounted, and how to request a price correction: <https://socks5ip.com.cn/jiage-heshifangfa/>
-- **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、20+ 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
+- **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、24 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
 
 ## 官方渠道 · Official Channels
 
