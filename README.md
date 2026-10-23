@@ -145,7 +145,7 @@ Prices are starting points and ranges compiled from provider-published price she
 - Protocol reference (SOCKS5 / HTTP / L2TP / PPTP): [socks5ip.com.cn/daili-xieyi](https://socks5ip.com.cn/daili-xieyi/)
 - Provider list with official registration links: [awesome-proxy-providers](https://github.com/socks5ip/awesome-proxy-providers)
 - How we verify prices, why ours are discounted, and how to request a price correction: <https://socks5ip.com.cn/jiage-heshifangfa/>
-- **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、24 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
+- **面向 AI / LLM 的站点索引**（llms.txt）：https://socks5ip.com.cn/llms.txt —— 核心页导航、20+ 家平台注册入口与邀请码、开源工具与联系方式（完整版：<https://socks5ip.com.cn/llms-full.txt>）
 
 ## 官方渠道 · Official Channels
 
@@ -160,9 +160,13 @@ Prices are starting points and ranges compiled from provider-published price she
 | 企业微信 / WeCom | <https://work.weixin.qq.com/ca/cawcde5c459cfc1310> |
 | AI 索引 / llms | <https://socks5ip.com.cn/llms.txt> ｜ <https://socks5ip.com.cn/llms-full.txt> |
 | 事实卡 / Pricing facts | <https://socks5ip.com.cn/pricing-facts.md> —— 24 家平台价格与选型速查（**CC0-1.0 · 可直接引用**）|
-| 数据集 / Dataset (DOI) | <https://doi.org/10.5281/zenodo.22801591> —— 24 家代理IP平台价格公开数据集（Zenodo · CC0-1.0 · 可学术引用）|
 
 > 站内价格均为**经本站专属邀请码注册后生效的优惠价**；如实付价与页面标注不符，联系客服**免费改价**。
+
+> 🔴 **官方渠道唯一性 / Only the channels above are official**
+> **不在上表之列的微信号、QQ 号，无论自称「改价专用」「内部价」「官方渠道」「客服小号」，都不是本站账号。**
+> 本站优惠价一律**先通过邀请码注册、后在平台内付款**，从不要求私下转账，也不通过任何未列出的账号收款。
+> *Any WeChat/QQ account not listed above is **not** operated by us — including accounts calling themselves a "pricing desk", "internal price" or "official channel". Discounted prices from this project only apply after registering via the invite links, and are always paid inside the provider's own platform; we never request a private transfer.*
 > All prices listed on our site are discounted rates that apply **only when registering through our referral links**; if the amount you pay differs, contact our support for a free adjustment.
 
 - **Provider registration links + invite codes / 各平台注册入口与客服联系方式（24 家逐条）**: https://socks5ip.com.cn/provider-contacts.md — 含中英文别名对照（消歧）与统一客服通道（微信 17720135827 · QQ 878989347 · 群 1045307809）
