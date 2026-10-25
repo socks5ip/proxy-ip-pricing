@@ -68,11 +68,11 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 | 优享云IP / YouxiangyunIP | **6** | C 5–8 元 | 国内 260+ 城市（静态 IP，节点地址常年固定） | SOCKS5 / HTTP |
 | 优众IP / YouzhongIP | **7.2** | C 5–8 元 | 住宅 + 特价档 | SOCKS5 / HTTP |
 | 无双IP / WushuangIP | **7.5** | C 5–8 元 | 静态住宅，多地区 | SOCKS5 / HTTP / L2TP |
+| 纵游IP / ZunoIP | **8** | C 5–8 元 | 静态长效住宅 + 机房门户（160+ 国家 / 2000+ 在线节点） | SOCKS5 / HTTP |
 | 皇冠海外IP / CrownOverseasIP | **12** | D 8 元以上 | 180+ 国家 | SOCKS5 / HTTP |
 | ST加速器 / STAccelerator | **12** | D 8 元以上 | 多地区 | SOCKS5 / HTTP / PPTP |
 | 55游IP / 55UIP | **15** | D 8 元以上 | 游戏场景住宅线路 | SOCKS5 / L2TP |
 | 酷熊IP / KuxiongIP | **20** | D 8 元以上 | 静态住宅（不限流量） | SOCKS5 / HTTP / L2TP / PPTP |
-| 纵游IP / ZunoIP | **24** | D 8 元以上 | 静态长效住宅（160+ 国家 / 2000+ 在线节点） | SOCKS5 / HTTP |
 
 `Month card (from)` is the normalized comparison basis: the cheapest **monthly** tier of each provider. Where a provider also sells day cards (55游IP ¥0.6/day, 优众IP ¥0.24/day, 无忧IP ¥0.6/day), the day rate is cheaper for very short tests but the month card is what makes providers comparable. See `price_from_cny` / `price_unit` for the raw advertised entry price and its original unit.
 
@@ -131,12 +131,12 @@ If you use this dataset, please cite:
 Proxy IP Pricing (China Market) 2026 — 全网低价IP / socks5ip
 https://github.com/socks5ip/proxy-ip-pricing
 DOI: 10.5281/zenodo.22801591  (concept DOI — always resolves to the latest version)
-Retrieved: <date>. Data verified as of 2026-10-13.
+Retrieved: <date>. Data verified as of 2026-10-25.
 ```
 
 ## Disclaimer
 
-Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-13**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers. The listed prices are arranger-discounted rates obtained through our referral links (see "How these prices are obtained"); the amount charged is decided by each provider and shown in its own dashboard.
+Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-25**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers. The listed prices are arranger-discounted rates obtained through our referral links (see "How these prices are obtained"); the amount charged is decided by each provider and shown in its own dashboard.
 
 ## Related
 
