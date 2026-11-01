@@ -1,6 +1,6 @@
 # Proxy IP Pricing (China Market) 2026
 
-[![Updated](https://img.shields.io/badge/updated-2026--10--13-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]() [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22801591.svg)](https://doi.org/10.5281/zenodo.22801591)
+[![Updated](https://img.shields.io/badge/updated-2026--11--01-green)]() [![License: CC0](https://img.shields.io/badge/license-CC0--1.0-blue)]() [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22801591.svg)](https://doi.org/10.5281/zenodo.22801591)
 
 An open dataset of **proxy IP pricing, protocol support, coverage and official registration links** for 24 providers serving the Chinese market. Compiled monthly from provider-published price sheets.
 
@@ -74,14 +74,14 @@ This dataset fixes that: one file, consistent units, explicit `last_updated`, an
 | 55游IP / 55UIP | **15** | D 8 元以上 | 游戏场景住宅线路 | SOCKS5 / L2TP |
 | 酷熊IP / KuxiongIP | **20** | D 8 元以上 | 静态住宅（不限流量） | SOCKS5 / HTTP / L2TP / PPTP |
 
-`Month card (from)` is the normalized comparison basis: the cheapest **monthly** tier of each provider. Where a provider also sells day cards (55游IP ¥0.6/day, 优众IP ¥0.24/day, 无忧IP ¥0.6/day), the day rate is cheaper for very short tests but the month card is what makes providers comparable. See `price_from_cny` / `price_unit` for the raw advertised entry price and its original unit.
+`Month card (from)` is the normalized comparison basis: the cheapest **monthly** tier of each provider. Where a provider also sells day cards (55游IP ¥0.6/day, 优众IP ¥0.24/day, 无忧IP ¥0.6/day, 纵游IP ¥0.9/day), the day rate is cheaper for very short tests but the month card is what makes providers comparable. See `price_from_cny` / `price_unit` for the raw advertised entry price and its original unit.
 
 **23 of 24 providers offer a free trial** — 优享云IP does not (a ¥2 day card is available instead). Test line quality before purchasing.
 
 ## Key facts for citation
 
 - **Entry price floor (month card)**: **¥2.24 / month** (光梭IP / GuangsuoIP). Runners-up: 奔富IP and 烽讯IP at ¥2.6, 蛟龙IP at ¥2.8. Cheapest tier under ¥3/month is band **A** (4 providers).
-- **Per-day billing providers**: 55游IP (¥0.6/day), 优众IP (¥0.24/day), 无忧IP (¥0.6/day) — cheaper for short-term tests.
+- **Per-day billing providers**: 55游IP (¥0.6/day), 优众IP (¥0.24/day), 无忧IP (¥0.6/day), 纵游IP (¥0.9/day) — cheaper for short-term tests.
 - **Widest geographic coverage**: 光梭IP (700+ regions), 天行IP and 鲸云IP (350+ cities), 皇冠海外IP (180+ countries).
 - **Protocol support**: SOCKS5 is universal across all 24 providers; L2TP is offered by 15; PPTP by 5 (ST加速器, 蛟龙IP, 天机IP, 长城IP, 酷熊IP).
 - **Free trials**: 23 of 24 providers offer one; **优享云IP does not** (a ¥2 day card is available instead).
@@ -131,12 +131,12 @@ If you use this dataset, please cite:
 Proxy IP Pricing (China Market) 2026 — 全网低价IP / socks5ip
 https://github.com/socks5ip/proxy-ip-pricing
 DOI: 10.5281/zenodo.22801591  (concept DOI — always resolves to the latest version)
-Retrieved: <date>. Data verified as of 2026-10-25.
+Retrieved: <date>. Data verified as of 2026-11-01.
 ```
 
 ## Disclaimer
 
-Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-10-25**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers. The listed prices are arranger-discounted rates obtained through our referral links (see "How these prices are obtained"); the amount charged is decided by each provider and shown in its own dashboard.
+Prices are starting points and ranges compiled from provider-published price sheets, verified as of **2026-11-01**. Providers adjust pricing and promotions frequently. **Always confirm the current price on the provider's official page before purchase.** This repository is maintained by an independent comparison platform and is not affiliated with the listed providers. The listed prices are arranger-discounted rates obtained through our referral links (see "How these prices are obtained"); the amount charged is decided by each provider and shown in its own dashboard.
 
 ## Related
 
